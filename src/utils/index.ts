@@ -11,3 +11,4 @@ export { applyMiddleware } from "./applyMiddleware";
 export { portChecker } from "./portChecker"
 export { IServerConfiguration, IServerConfigurations, getEnvironment, getConfiguration } from "./ServerConfiguration";
 export { applyRoutes } from "./applyRoutes";
+export { notFoundError, clientError, serverError } from "./ErrorHandler";
